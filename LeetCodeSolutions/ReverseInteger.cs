@@ -15,7 +15,8 @@ public class ReverseInteger
             {
                 ans += num[i].ToString();
             }
-            
+            if (int.Parse(ans) < int.MinValue)
+                return 0;
             return int.Parse(ans);
         }
         else
@@ -25,6 +26,8 @@ public class ReverseInteger
             {
                 ans += num[i].ToString();
             }
+            if (int.Parse(ans) > int.MaxValue)
+                return 0;   
             return int.Parse(ans);
         }
     }
