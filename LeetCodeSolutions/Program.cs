@@ -4,7 +4,7 @@ public class Program
 {
     public static void Main()
     {
-        AddDigits addDigits = new AddDigits();
-        Console.WriteLine(addDigits.AddDigit(38));
+        CategorizeBoxCtiteria categorizeBoxCtiteria = new CategorizeBoxCtiteria();
+        Console.WriteLine(categorizeBoxCtiteria.CategorizeBox(2909,3968,3272,727));
     }
 }
