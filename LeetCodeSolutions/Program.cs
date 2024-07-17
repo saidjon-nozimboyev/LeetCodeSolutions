@@ -4,7 +4,7 @@ public class Program
 {
     public static void Main()
     {
-        ReverseInteger reverseInteger = new ReverseInteger();
-        Console.WriteLine(reverseInteger.Reverse(120));
+        FizBuz fizBuz = new FizBuz();
+        Console.WriteLine(string.Join(", ",fizBuz.FizzBuzz(3)));
     }
 }
