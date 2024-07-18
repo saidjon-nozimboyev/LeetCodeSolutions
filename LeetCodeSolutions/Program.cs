@@ -6,7 +6,7 @@ public class Program
 {
     public static void Main()
     {
-        ValidPalindrome validPalindrome = new ValidPalindrome();
-        Console.WriteLine(validPalindrome.IsPalindrome(" "));
+        NumberOfDistinct numberOfDistinct = new NumberOfDistinct();
+        Console.WriteLine(numberOfDistinct.DistinctAverages([4, 1, 4, 0, 3, 5]));
     }
 }
