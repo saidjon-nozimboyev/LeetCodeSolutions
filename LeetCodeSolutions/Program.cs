@@ -6,7 +6,7 @@ public class Program
 {
     public static void Main()
     {
-        NumberOfDistinct numberOfDistinct = new NumberOfDistinct();
-        Console.WriteLine(numberOfDistinct.DistinctAverages([4, 1, 4, 0, 3, 5]));
+        ClimbingStairs climbingStairs = new ClimbingStairs();
+        Console.WriteLine(climbingStairs.ClimbStairs(2));
     }
 }
