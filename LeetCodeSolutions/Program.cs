@@ -6,7 +6,7 @@ public class Program
 {
     public static void Main()
     {
-        ClimbingStairs climbingStairs = new ClimbingStairs();
-        Console.WriteLine(climbingStairs.ClimbStairs(2));
+        LargestGroup a = new LargestGroup();
+        Console.WriteLine(a.CountLargestGroup(2));
     }
 }
